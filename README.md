@@ -14,19 +14,41 @@ This project is a web-based application designed to extract key details from mul
 
 ## Features
 
-- **News Extraction**: :contentReference[oaicite:3]{index=3}&#8203;:contentReference[oaicite:4]{index=4}
+- **News Extraction**: retrieves structured information from unstructured news articles.
 
-- **Sentiment Analysis**: :contentReference[oaicite:5]{index=5}&#8203;:contentReference[oaicite:6]{index=6}
+- **Sentiment Analysis**: determines the emotional tone—positive, negative, or neutral—within the text.
 
-- **Comparative Analysis**: Provides insights into how the company's news coverage varies across different articles.&#8203;:contentReference[oaicite:7]{index=7}
+- **Comparative Analysis**: Provides insights into how the company's news coverage varies across different articles.
+- 
+- **Text-to-Speech (TTS)**: Converts the summarized content into Hindi speech using an open-source TTS model.
 
-- **Text-to-Speech (TTS)**: Converts the summarized content into Hindi speech using an open-source TTS model.&#8203;:contentReference[oaicite:8]{index=8}
+- **User Interface**: Offers a simple web-based interface using Streamlit. Users can input a company name to fetch news articles and generate the sentiment report.
 
-- **User Interface**: Offers a simple web-based interface using Streamlit. Users can input a company name to fetch news articles and generate the sentiment report.&#8203;:contentReference[oaicite:9]{index=9}
+## SETUP Installation
 
-## Installation
+ **Clone the repository** : 
+   git clone https://github.com/Subhasya/news-summarizer.git
+   cd news-summarizer
 
- **Clone the repository** and **Install dependencies** followed by **Run the application** is done.
+**Install dependencies**: pip install -r requirements.txt
+
+**Run the application**: streamlit run app.py.
+
+## API Endpoints
+
+/fetch_news, /analyze_sentiment, /generate_tts
 
 ## Deployment
 The application is deployed on Hugging Face Spaces and can be accessed here [https://huggingface.co/spaces/Subhasya/News_Summarizer].
+
+## Usuage
+- Open the web application in your browser.​
+
+- Enter the company name in the input field.​
+
+- Click the "Submit" button to fetch news articles and generate the sentiment report.​
+
+- Review the structured report, which includes article titles, summaries, sentiments, topics, comparative analysis, and a playable Hindi audio summary.
+
+
+
