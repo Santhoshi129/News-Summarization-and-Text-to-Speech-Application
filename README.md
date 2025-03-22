@@ -1,8 +1,16 @@
 # News Summarization and Text-to-Speech Application
 
-![Application Logo](sample-logo.png)&#8203;:contentReference[oaicite:0]{index=0}
+This project is a web-based application designed to extract key details from multiple news articles about a specified company, perform sentiment analysis, conduct comparative analysis, and generate text-to-speech (TTS) output in Hindi. Users can input a company name and receive a structured sentiment report along with an audio summary in Hindi.&#8203;:contentReference[oaicite:0]{index=0}
 
-:contentReference[oaicite:1]{index=1}&#8203;:contentReference[oaicite:2]{index=2}
+## Files Overview
+
+- **app.py**: The main application script that integrates various components to run the News Summarizer.​
+
+- **requirements.txt**: Lists the Python dependencies required to run the application.​
+
+- **tts.py**: Handles text-to-speech functionalities, converting summarized text into spoken words.​
+
+- **utils.py**: Contains utility functions supporting the application's core features.
 
 ## Features
 
@@ -18,8 +26,7 @@
 
 ## Installation
 
-1. **Clone the repository**:
+ **Clone the repository** and **Install dependencies** followed by **Run the application** is done.
 
-   ```bash
-   git clone https://github.com/yourusername/news-summarizer.git
-   cd news-summarizer
+## Deployment
+The application is deployed on Hugging Face Spaces and can be accessed here [https://huggingface.co/spaces/Subhasya/News_Summarizer].
